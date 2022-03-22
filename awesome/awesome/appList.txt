@@ -1,0 +1,3800 @@
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=KDevelop (Pick Session)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Xtreme Download Manager
+
+Name=Terminator
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=Execute in Kupfer
+
+Name=PlayOnLinux URL handler
+
+Name=qBittorrent
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=LibreOffice Math
+
+Name=LibreOffice Base
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=LibreOffice Draw
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=AppImageLauncher Settings
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=KDevelop
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=LibreOffice
+
+Name=LibreOffice Impress
+
+Name=Dolphin Emulator
+
+Name=Obsidian
+
+Name=conky
+
+Name=KDevelop
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Persepolis Download Manager
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=LibreOffice XSLT based filters
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=LibreOffice Writer
+
+Name=KDED
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=KDevelop (Fetch git Project)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=LibreOffice Calc
+
+Name=KDevelop (Fetch Subversion Project)
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=AppImageLauncher
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Alacritty
+
+Name=KDevelop (Fetch Bazaar Project)
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=nitrogen
+
+Name=System Profiler and Benchmark
+
+Name=KTelnetService
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Manage Printing
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=LibreWolf
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=KDevelop (Pick Session)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Xtreme Download Manager
+
+Name=Terminator
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=Execute in Kupfer
+
+Name=PlayOnLinux URL handler
+
+Name=qBittorrent
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=LibreOffice Math
+
+Name=LibreOffice Base
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=LibreOffice Draw
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=AppImageLauncher Settings
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=KDevelop
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=LibreOffice
+
+Name=LibreOffice Impress
+
+Name=Dolphin Emulator
+
+Name=Obsidian
+
+Name=conky
+
+Name=KDevelop
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Persepolis Download Manager
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=LibreOffice XSLT based filters
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=LibreOffice Writer
+
+Name=KDED
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=KDevelop (Fetch git Project)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=LibreOffice Calc
+
+Name=KDevelop (Fetch Subversion Project)
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=AppImageLauncher
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Alacritty
+
+Name=KDevelop (Fetch Bazaar Project)
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=nitrogen
+
+Name=System Profiler and Benchmark
+
+Name=KTelnetService
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Manage Printing
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=LibreWolf
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=KDevelop (Pick Session)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Xtreme Download Manager
+
+Name=Terminator
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=Execute in Kupfer
+
+Name=PlayOnLinux URL handler
+
+Name=qBittorrent
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=LibreOffice Math
+
+Name=LibreOffice Base
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=LibreOffice Draw
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=AppImageLauncher Settings
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=KDevelop
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=LibreOffice
+
+Name=LibreOffice Impress
+
+Name=Dolphin Emulator
+
+Name=Obsidian
+
+Name=conky
+
+Name=KDevelop
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Persepolis Download Manager
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=LibreOffice XSLT based filters
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=LibreOffice Writer
+
+Name=KDED
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=KDevelop (Fetch git Project)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=LibreOffice Calc
+
+Name=KDevelop (Fetch Subversion Project)
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=AppImageLauncher
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Alacritty
+
+Name=KDevelop (Fetch Bazaar Project)
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=nitrogen
+
+Name=System Profiler and Benchmark
+
+Name=KTelnetService
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Manage Printing
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=LibreWolf
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Terminator
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=PlayOnLinux URL handler
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=Obsidian
+
+Name=conky
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=System Profiler and Benchmark
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=LibreWolf
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Terminator
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=PlayOnLinux URL handler
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=Obsidian
+
+Name=conky
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=System Profiler and Benchmark
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=LibreWolf
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+X-GNOME-FullName=GParted Partition Editor
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=Store
+
+Name=Community
+
+Name=Library
+
+Name=Servers
+
+Name=Screenshots
+
+Name=News
+
+Name=Settings
+
+Name=Big Picture
+
+Name=Friends
+
+Name=KDevelop (Pick Session)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Xtreme Download Manager
+
+Name=Terminator
+
+Name=Open a New Window
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=New Empty Window
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=New Window
+
+Name=Preferences
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=Execute in Kupfer
+
+Name=PlayOnLinux URL handler
+
+Name=qBittorrent
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=LibreOffice Math
+
+Name=New Formula
+
+Name=LibreOffice Base
+
+Name=New Database
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=LibreOffice Draw
+
+Name=New Drawing
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=AppImageLauncher Settings
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=KDevelop
+
+Name=Open a Session
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=LibreOffice
+
+Name=Writer
+
+Name=Calc
+
+Name=Impress
+
+Name=Draw
+
+Name=Base
+
+Name=Math
+
+Name=LibreOffice Impress
+
+Name=New Presentation
+
+Name=Dolphin Emulator
+
+Name=Obsidian
+
+Name=conky
+
+Name=KDevelop
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Persepolis Download Manager
+
+Name=Start Persepolis
+
+Name=Start in System Tray
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=LibreOffice XSLT based filters
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=LibreOffice Writer
+
+Name=New Document
+
+Name=KDED
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=KDevelop (Fetch git Project)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+X-GNOME-FullName=Inkscape Vector Graphics Editor
+
+Name=New Drawing
+
+Name=Open a New Window
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=LibreOffice Calc
+
+Name=New Spreadsheet
+
+Name=KDevelop (Fetch Subversion Project)
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=AppImageLauncher
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Alacritty
+
+Name=New Terminal
+
+Name=KDevelop (Fetch Bazaar Project)
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+X-GNOME-FullName=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=nitrogen
+
+Name=System Profiler and Benchmark
+
+Name=KTelnetService
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Write new message
+
+Name=Open address book
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Manage Printing
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=New Window
+
+Name=New Private Window
+
+Name=LibreWolf
+
+Name=New Window
+
+Name=New Private Window
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+
+Name=Qt Designer
+
+Name=Spotify
+
+Name=Preferred Applications
+
+Name=Software Token
+
+Name=Shortcut Editor
+
+Name=Screenkey
+
+Name=GParted
+
+Name=Lutris
+
+Name=Neovim
+
+Name=Steam (Runtime)
+
+Name=KDevelop (Pick Session)
+
+Name=Qt V4L2 test Utility
+
+Name=Kupfer
+
+Name=Mopidy
+
+Name=Blender
+
+Name=XTerm
+
+Name=Code - OSS - URL Handler
+
+Name=Xtreme Download Manager
+
+Name=Terminator
+
+Name=Avahi Zeroconf Browser
+
+Name=Code - OSS
+
+Name=picom
+
+Name=JDownloader
+
+Name=qutebrowser
+
+Name=Lunar Client
+
+Name=Logout
+
+Name=Execute in Kupfer
+
+Name=PlayOnLinux URL handler
+
+Name=qBittorrent
+
+Name=cadmus
+
+Name=Reboot
+
+Name=Desktop Preferences
+
+Name=Electron
+
+Name=LibreOffice Math
+
+Name=LibreOffice Base
+
+Name=Carla-Patchbay
+
+Name=ranger
+
+Name=PulseEffects
+
+Name=osu!stable
+
+Name=Avahi SSH Server Browser
+
+Name=LibreOffice Draw
+
+Name=Manjaro User Guide
+
+Name=GOverlay
+
+Name=Feh
+
+Name=UXTerm
+
+Name=Qt QDBusViewer 
+
+Name=View file
+
+Name=Carla
+
+Name=AppImageLauncher Settings
+
+Name=Fcitx Configuration
+
+Name=Fcitx Skin Installer
+
+Name=Irony Mod Mananger
+
+Name=KDevelop
+
+Name=Dosbox
+
+Name=VLC media player
+
+Name=Pronsole
+
+Name=mpv Media Player
+
+Name=LibreOffice
+
+Name=LibreOffice Impress
+
+Name=Dolphin Emulator
+
+Name=Obsidian
+
+Name=conky
+
+Name=KDevelop
+
+Name=GreenWithEnvy
+
+Name=GNU Image Manipulation Program
+
+Name=Network
+
+Name=kitty
+
+Name=Ardour
+
+Name=Persepolis Download Manager
+
+Name=Advanced Network Configuration
+
+Name=Emacs
+
+Name=Piper
+
+Name=LibreOffice XSLT based filters
+
+Name=Ultimaker Cura
+
+Name=Electron 13
+
+Name=File Manager PCManFM
+
+Name=Unity
+
+Name=JDownloader
+
+Name=LibreOffice Writer
+
+Name=KDED
+
+Name=Keyboard Layout
+
+Name=CMake
+
+Name=Repetier-Host
+
+Name=Calf Plugin Pack for JACK
+
+Name=CoreCtrl
+
+Name=Software Token (small)
+
+Name=KDevelop (Fetch git Project)
+
+Name=Avahi VNC Server Browser
+
+Name=Inkscape
+
+Name=Snapd User Session Agent
+
+Name=compton
+
+Name=Wine Windows Program Loader
+
+Name=NVIDIA X Server Settings
+
+Name=Cataclysm: Dark Days Ahead
+
+Name=LibreOffice Calc
+
+Name=KDevelop (Fetch Subversion Project)
+
+Name=GVim
+
+Name=Qt Assistant
+
+Name=AppImageLauncher
+
+Name=Vim
+
+Name=Access Prompt
+
+Name=Alacritty
+
+Name=KDevelop (Fetch Bazaar Project)
+
+Name=Discord
+
+Name=Customize Look and Feel
+
+Name=hp-uiscan
+
+Name=Handler for snap:// URIs
+
+Name=Plater
+
+Name=PulseAudio Volume Control
+
+Name=Virtual Machine Manager
+
+Name=Print Settings
+
+Name=NetSurf Web Browser
+
+Name=nitrogen
+
+Name=System Profiler and Benchmark
+
+Name=KTelnetService
+
+Name=Grapejuice
+
+Name=Winetricks
+
+Name=PlayOnLinux
+
+Name=Qt Linguist
+
+Name=Carla Control
+
+Name=SpeedCrunch
+
+Name=Thunderbird
+
+Name=Htop
+
+Name=Paradox Launcher
+
+Name=Carla (JACK single client)
+
+Name=HP Device Manager
+
+Name=Qt V4L2 video capture utility
+
+Name=Shutdown Computer
+
+Name=Fcitx
+
+Name=Manage Printing
+
+Name=Carla (JACK multi-client)
+
+Name=LTris
+
+Name=OBS Studio
+
+Name=Timeshift
+
+Name=Roblox Player
+
+Name=Pronterface
+
+Name=Bless Hex Editor
+
+Name=Firefox
+
+Name=LibreWolf
+
+Name=Carla-Rack
+
+Name=Roblox App
+
+Name=Roblox Studio
+
+Name=Audacity
+
+Name=FontForge
+
+Name=Hardware Locality lstopo
+
+Name=QEMU
+
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU
+Name=deemix-gui
+Name=Qt Designer
+Name=Spotify
+Name=Preferred Applications
+Name=Software Token
+Name=Shortcut Editor
+Name=Screenkey
+Name=GParted
+Name=Lutris
+Name=Neovim
+Name=Steam (Runtime)
+Name=KDevelop (Pick Session)
+Name=Qt V4L2 test Utility
+Name=Kupfer
+Name=Mopidy
+Name=Blender
+Name=XTerm
+Name=Code - OSS - URL Handler
+Name=Xtreme Download Manager
+Name=Terminator
+Name=Avahi Zeroconf Browser
+Name=Code - OSS
+Name=picom
+Name=JDownloader
+Name=qutebrowser
+Name=Lunar Client
+Name=Logout
+Name=Execute in Kupfer
+Name=PlayOnLinux URL handler
+Name=qBittorrent
+Name=cadmus
+Name=Reboot
+Name=Desktop Preferences
+Name=Electron
+Name=LibreOffice Math
+Name=LibreOffice Base
+Name=Carla-Patchbay
+Name=ranger
+Name=PulseEffects
+Name=osu!stable
+Name=Avahi SSH Server Browser
+Name=LibreOffice Draw
+Name=Manjaro User Guide
+Name=GOverlay
+Name=Feh
+Name=UXTerm
+Name=Qt QDBusViewer 
+Name=View file
+Name=Carla
+Name=AppImageLauncher Settings
+Name=Fcitx Configuration
+Name=Fcitx Skin Installer
+Name=Irony Mod Mananger
+Name=KDevelop
+Name=Dosbox
+Name=VLC media player
+Name=Pronsole
+Name=mpv Media Player
+Name=LibreOffice
+Name=LibreOffice Impress
+Name=Dolphin Emulator
+Name=Obsidian
+Name=conky
+Name=KDevelop
+Name=GreenWithEnvy
+Name=GNU Image Manipulation Program
+Name=Network
+Name=kitty
+Name=Ardour
+Name=Persepolis Download Manager
+Name=Advanced Network Configuration
+Name=Emacs
+Name=Piper
+Name=LibreOffice XSLT based filters
+Name=Ultimaker Cura
+Name=Electron 13
+Name=File Manager PCManFM
+Name=Unity
+Name=JDownloader
+Name=LibreOffice Writer
+Name=KDED
+Name=Keyboard Layout
+Name=CMake
+Name=Repetier-Host
+Name=Calf Plugin Pack for JACK
+Name=CoreCtrl
+Name=Software Token (small)
+Name=KDevelop (Fetch git Project)
+Name=Avahi VNC Server Browser
+Name=Inkscape
+Name=Snapd User Session Agent
+Name=compton
+Name=Wine Windows Program Loader
+Name=NVIDIA X Server Settings
+Name=Cataclysm: Dark Days Ahead
+Name=LibreOffice Calc
+Name=KDevelop (Fetch Subversion Project)
+Name=GVim
+Name=Qt Assistant
+Name=AppImageLauncher
+Name=Vim
+Name=Access Prompt
+Name=Alacritty
+Name=KDevelop (Fetch Bazaar Project)
+Name=Discord
+Name=Customize Look and Feel
+Name=hp-uiscan
+Name=Handler for snap:// URIs
+Name=Plater
+Name=PulseAudio Volume Control
+Name=Virtual Machine Manager
+Name=Print Settings
+Name=NetSurf Web Browser
+Name=nitrogen
+Name=System Profiler and Benchmark
+Name=KTelnetService
+Name=Grapejuice
+Name=Winetricks
+Name=PlayOnLinux
+Name=Qt Linguist
+Name=Carla Control
+Name=SpeedCrunch
+Name=Thunderbird
+Name=Htop
+Name=Paradox Launcher
+Name=Carla (JACK single client)
+Name=HP Device Manager
+Name=Qt V4L2 video capture utility
+Name=Shutdown Computer
+Name=Fcitx
+Name=Manage Printing
+Name=Carla (JACK multi-client)
+Name=LTris
+Name=OBS Studio
+Name=Timeshift
+Name=Roblox Player
+Name=Pronterface
+Name=Bless Hex Editor
+Name=Firefox
+Name=LibreWolf
+Name=Carla-Rack
+Name=Roblox App
+Name=Roblox Studio
+Name=Audacity
+Name=FontForge
+Name=Hardware Locality lstopo
+Name=QEMU

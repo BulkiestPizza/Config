@@ -1,0 +1,152 @@
+AbiWord
+Alacritty
+AppImageLauncher
+AppImageLauncher Settings
+Ardour
+Qt Assistant
+Audacity
+Avahi Zeroconf Browser
+Blender
+Bless Hex Editor
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+cadmus
+Calf Plugin Pack for JACK
+Carla Control
+Carla
+Carla (JACK multi-client)
+Carla (JACK single client)
+Carla-Patchbay
+Carla-Rack
+CMake
+Code - OSS
+Code - OSS - URL Handler
+GenericDownload Manager
+PulseEffects
+GreenWithEnvy
+OBS Studio
+compton
+Ultimaker Cura
+conky
+Manage Printing
+deemix-gui
+Qt Designer
+Discord
+Dolphin Emulator
+Dosbox
+Electron 13
+Electron
+Emacs
+Fcitx Configuration
+Fcitx
+Fcitx Skin Installer
+Feh
+Firefox
+Access Prompt
+View file
+GNU Image Manipulation Program
+Keyboard Layout
+GParted
+Grapejuice
+GVim
+System Profiler and Benchmark
+HP Device Manager
+hp-uiscan
+Htop
+GOverlay
+Snapd User Session Agent
+Irony Mod Mananger
+JDownloader
+JDownloader
+kitty
+KTelnetService
+Kupfer
+Execute in Kupfer
+Preferred Applications
+LibreOffice Base
+LibreOffice Calc
+LibreOffice Draw
+LibreOffice Impress
+LibreOffice Math
+LibreOffice
+LibreOffice Writer
+LibreOffice XSLT based filters
+LibreWolf
+Qt Linguist
+Logout
+Hardware Locality lstopo
+LTris
+Lunar Client
+Customize Look and Feel
+Shortcut Editor
+Manjaro User Guide
+Mopidy
+mpv Media Player
+Lutris
+NetSurf Web Browser
+nitrogen
+Network
+Advanced Network Configuration
+NVIDIA X Server Settings
+Neovim
+Obsidian
+Cataclysm: Dark Days Ahead
+CoreCtrl
+FontForge
+Piper
+Inkscape
+X-DBUS-Serviceorg.kde.apper
+Apper Installer
+X-DBUS-Serviceorg.kde.apper
+X-DBUS-Serviceorg.kde.apper
+KDED
+KDevelop (Fetch Bazaar Project)
+KDevelop
+KDevelop (Fetch git Project)
+KDevelop
+KDevelop (Pick Session)
+KDevelop (Fetch Subversion Project)
+GenericBitTorrent client
+qutebrowser
+Paradox Launcher
+PulseAudio Volume Control
+File Manager PCManFM
+Desktop Preferences
+picom
+Plater
+PlayOnLinux
+PlayOnLinux URL handler
+Pronsole
+Pronterface
+Qt QDBusViewer 
+QEMU
+Qt V4L2 test Utility
+Qt V4L2 video capture utility
+ranger
+Reboot
+Repetier-Host
+Roblox App
+Roblox Player
+Roblox Studio
+Screenkey
+osu!stable
+Shutdown Computer
+Handler for snap:// URIs
+SpeedCrunch
+Spotify
+Steam (Runtime)
+Software Token
+Software Token (small)
+Print Settings
+Terminator
+Thunderbird
+Timeshift
+Unity
+UXTerm
+Vim
+Virtual Machine Manager
+VLC media player
+Wine Windows Program Loader
+Winetricks
+Xtreme Download Manager
+XTerm
