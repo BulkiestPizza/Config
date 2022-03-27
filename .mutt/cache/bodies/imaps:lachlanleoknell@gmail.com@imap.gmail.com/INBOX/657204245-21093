@@ -1,0 +1,788 @@
+Delivered-To: lachlanleoknell@gmail.com
+Received: by 2002:ac2:5cd6:0:0:0:0:0 with SMTP id f22csp4651889lfq;
+        Fri, 25 Mar 2022 16:00:09 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJxlFAkdnxMB8ttzpTiH8b5jPdAGhX5tG2pvfzAb8bsfcJzjezQlyNTCyVz5ovJZ/938tl+/
+X-Received: by 2002:a17:903:22c2:b0:154:9ed:eabd with SMTP id y2-20020a17090322c200b0015409edeabdmr14546749plg.58.1648249208977;
+        Fri, 25 Mar 2022 16:00:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1648249208; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ljBmXGW6dCLQPCx4viwSaQJoZQux26ea0wcpjD0PyaBze7UUMiLNQfe9D4SPkmJlHd
+         zw3Gs9tA38V7WhMjUaFbcIE5+f73En7kBPImTsudI9qCEX/tuJe0cZA3B40JHFTfud+C
+         yT/RWaJmOjyitM/u4Xo69GrkfgfLAQhNXOFltLUIadVC7jymk1Dsvix9gR9CwqSTSHLS
+         vFKHlEPZC7dYZ8PIKP9oNXlr08jjRuPAu+G653MPC/j+pAw9qRk+xjsvEKW9wqH9xGVn
+         NofpqrOkWZ6gfti34VGgM1RVpuAqXZiiVlqsDX8541aPP72JPg3B6wj96avvZ/x4eUo3
+         sPWw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:message-id:subject:mime-version:errors-to:reply-to:from:to
+         :dkim-signature;
+        bh=tbfaIuh04uua31+UJrg+CINgB6yJNvfZdaf92Mvd2BE=;
+        b=wRwDj2x9ERlxHDKSqsQpKALoMC41P5EDqu5tcb64Lzqg+tRWSEwpMo39vIxptqaz7p
+         pN6QRVoCxrwWcuZh4umUcjlpYNxOa6Tlz3FzqESqBwTOEDuqWsk6Cud/TbFBTYRHJghY
+         py7/RzxDJkAGUiMvHXy9BXZZFmggP39ib5ykYnv+VfGTGAGeDpqIIH3fqeWALHT8THpr
+         olakMQqGxlQqXLEubIgqsUgsS4P3YponYoBBQ4MCd9cV7RY8FxNDI5mLejfFny9WNvoJ
+         B1DMpraB6XyjHlB0gAGixVZ2SXs1V1C+nK2yw3MwFTn0uPQZF4snBRJHtF/lLdquiIpz
+         S/Yg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@steampowered.com header.s=smtp header.b=AjoHymA+;
+       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.43 as permitted sender) smtp.mailfrom=noreply@steampowered.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com
+Return-Path: <noreply@steampowered.com>
+Received: from smtp-04-tuk1.steampowered.com (smtp-04-tuk1.steampowered.com. [208.64.202.43])
+        by mx.google.com with ESMTPS id f3-20020a056a00228300b004fa3a8e00a0si4255167pfe.343.2022.03.25.16.00.08
+        for <lachlanleoknell@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-CHACHA20-POLY1305 bits=256/256);
+        Fri, 25 Mar 2022 16:00:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of noreply@steampowered.com designates 208.64.202.43 as permitted sender) client-ip=208.64.202.43;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@steampowered.com header.s=smtp header.b=AjoHymA+;
+       spf=pass (google.com: domain of noreply@steampowered.com designates 208.64.202.43 as permitted sender) smtp.mailfrom=noreply@steampowered.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=steampowered.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=steampowered.com; s=smtp; h=Date:Message-Id:Content-Type:Subject:
+	MIME-Version:Reply-To:From:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=tbfaIuh04uua31+UJrg+CINgB6yJNvfZdaf92Mvd2BE=; b=AjoHymA++V5XTZl8IClLLYuGGA
+	Ei4a0N8EThwjDv40HPL3CR2SmixpNJRty3BNyfIyMnKdOn7Q7pdXnm2puOzoLGFjhFCy+VFGmn2Zd
+	ysex7t/B3085PwBFWb0KkHSzazwcikP+AXF94ygt542HVfUS90mr+ptTFHXpbtTz1Cgo=;
+Received: from [208.64.200.144] (helo=valvesoftware.com)
+	by smtp-04-tuk1.steampowered.com with smtp (Exim 4.90_1)
+	(envelope-from <noreply@steampowered.com>)
+	id 1nXsue-0008Cv-MJ
+	for lachlanleoknell@gmail.com; Fri, 25 Mar 2022 16:00:08 -0700
+To: lachlanleoknell@gmail.com
+From: "Steam Support" <noreply@steampowered.com>
+Reply-To: <noreply@steampowered.com>
+Errors-To: <noreply@steampowered.com>
+X-Steam-Message-Type: CRegisterCDKeyReceipt
+MIME-Version: 1.0
+Subject: Thank you for activating your product on Steam!
+Content-Type: multipart/alternative;
+ boundary="np623e4978a3086"
+Message-Id: <E1nXsue-0008Cv-MJ@smtp-04-tuk1.steampowered.com>
+Date: Fri, 25 Mar 2022 16:00:08 -0700
+
+This is a multi-part message in MIME format.
+--np623e4978a3086
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello lachlanknell,
+
+Your activation of Europa Universalis IV: Emperor Content Pack was successf=
+ul.
+
+It is recommended that you keep this information in a safe place. It can be=
+ used
+as proof-of-purchase in the future.
+
+-------------------------------
+
+Steam account name: lachlanknell
+Contact email address: lachlanleoknell@gmail.com
+Product name: Europa Universalis IV: Emperor Content Pack
+Confirmation code: 3070898867815610147
+
+-------------------------------
+
+Important Note: Your new subscription is tied to your Steam account. This m=
+eans
+that you will only be able to access Europa Universalis IV: Emperor Content=
+ Pack
+when you login to Steam using the account named "lachlanknell".
+
+Thanks for your purchase!
+
+
+Cheers,
+The Steam Team
+
+--
+
+This notification has been sent to the email address associated with your S=
+team account.
+
+This email message was auto-generated. Please do not respond. If you need a=
+dditional help, please visit Steam Support.
+https://help.steampowered.com
+
+=C2=A9 Valve Corporation
+All rights reserved. All trademarks are property of their respective owners=
+ in the US and other countries.
+
+--
+
+View this message on the web:
+https://store.steampowered.com/email/RegisterCDKeyReceipt?sparams=3DeJxtjkF=
+PwzAMhf9KlTPa2lHarKdJ0w7ckBCcdjGpaaM5cZQ4IIT476SoExy42e9779mfiiB7M2OUj4BqUL=
+W6URGBXJkn4hegIoTIYzbiwS2WR0FwRU05BI6CDiwVeV0PacGB3zHiuDH8x5msLPlZJKThvD1vZ=
+6Sw-ce_lib0ksWUSNO1etfud7UuFIzh7K_fEJiZwF88Ev3C61MrJeQfw2Fa9PVKAHOBCdeeU44c=
+oHry9g1jArKpun8eqpMLGDlWRy6lXqqHEipZw_7VRgdi2Rsel4Lbuq_1Xuuu181d19RN26uvbzk=
+EeRc
+
+--np623e4978a3086
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta http-equiv=3D"Content-type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, maximum-scale=3D1" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <meta name=3D"format-detection" content=3D"date=3Dno" />
+    <meta name=3D"format-detection" content=3D"address=3Dno" />
+    <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+    <meta name=3D"x-apple-disable-message-reformatting" />
+    <title>Thank you for activating your product on Steam!</title>
+    <!--[if gte mso 9]>
+    <style type=3D"text/css" media=3D"all">
+        sup { font-size: 100% !important; }
+    </style>
+    <![endif]-->
+
+        <!--[if !mso]><!-->
+    <style type=3D"text/css" media=3D"screen">
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Motiva Sans'), url('https://store.cloudflare.steams=
+tatic.com/public/shared/fonts/email/MotivaSans-Light.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: normal;
+            src: local('Motiva Sans'), url('https://store.cloudflare.steams=
+tatic.com//public/shared/fonts/email/MotivaSans-Regular.woff') format('woff=
+');
+        }
+
+        @font-face {
+            font-family: 'Motiva Sans';
+            font-style: normal;
+            font-weight: bold;
+            src: local('Motiva Sans'), url('https://store.cloudflare.steams=
+tatic.com//public/shared/fonts/email/MotivaSans-Bold.woff') format('woff');
+        }
+
+        [style*=3D'Motiva Sans'] {
+            font-family: 'Motiva Sans', Arial, sans-serif !important;
+        }
+    </style>
+    <!--<![endif]-->
+
+    <style type=3D"text/css" media=3D"screen">
+        body { padding:0 !important; margin:0 auto !important; display:bloc=
+k !important; min-width:100% !important; width:100% !important; background:=
+#ffffff; -webkit-text-size-adjust:none }
+        a { color:#7abefa; text-decoration:underline }
+        body a { color:#ffffff; text-decoration:underline }
+        img { margin: 0 !important; -ms-interpolation-mode: bicubic; /* All=
+ow smoother rendering of resized image in Internet Explorer */ }
+
+        /* for recepits */
+            table { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+            img, a img{ border:0; outline:none; text-decoration:none; }
+            #outlook a { padding:0; }
+            .ReadMsgBody { width:100%; }
+            .ExternalClass { width:100%; }
+            div,p,a,li,td,blockquote { mso-line-height-rule:exactly; }
+            a[href^=3Dtel],a[href^=3Dsms] { color:inherit; text-decoration:=
+none; }
+            .ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalC=
+lass div, .ExternalClass span, .ExternalClass font { line-height:100%; }
+        /* END for recepits */
+
+        a[x-apple-data-detectors] { color: inherit !important; text-decorat=
+ion: inherit !important; font-size: inherit !important; font-family: inheri=
+t !important; font-weight: inherit !important; line-height: inherit !import=
+ant; }
+
+        .btn-18 a { display: block; padding: 13px 35px; text-decoration: no=
+ne; }
+
+        .l-white a { color: #ffffff; }
+        .l-black a { color: #000001; }
+        .l-grey1 a { color: #dbdee2; }
+        .l-grey2 a { color: #a1a2a4; }
+        .l-grey3 a { color: #dadcdd; }
+        .l-grey4 a { color: #f1f1f1; }
+        .l-grey5 a { color: #dddedf; }
+        .l-grey6 a { color: #bfbfbf; }
+        .l-grey7 a { color: #dcdddd; }
+        .l-grey8 a { color: #8e96a4; }
+        .l-green a { color: #a4d007; }
+        .l-blue a { color: #6a7c96; }
+        .l-blue1 a { color: #7abefa; }
+        .l-blue2 a { color: #9eb8cc; }
+
+
+        /* Mobile styles */
+        @media only screen and (max-device-width: 480px), only screen and (=
+max-width: 480px) {
+            .mpy-35 { padding-top: 35px !important; padding-bottom: 35px !i=
+mportant; }
+
+            .mpx-15 { padding-left: 15px !important; padding-right: 15px !i=
+mportant; }
+
+            .mpx-20 { padding-left: 20px !important; padding-right: 20px !i=
+mportant; }
+
+            .mpb-30 { padding-bottom: 30px !important; }
+
+            .mpb-10 { padding-bottom: 10px !important; }
+
+            .mpb-15 { padding-bottom: 15px !important; }
+
+            .mpb-20 { padding-bottom: 20px !important; }
+
+            .mpb-35 { padding-bottom: 35px !important; }
+
+            .mpb-40 { padding-bottom: 40px !important; }
+
+            .mpb-50 { padding-bottom: 50px !important; }
+
+            .mpb-60 { padding-bottom: 60px !important; }
+
+            .mpt-30 { padding-top: 30px !important; }
+
+            .mpt-40 { padding-top: 40px !important; }
+
+            .mpy-40 { padding-top: 40px !important; padding-bottom: 40px !i=
+mportant; }
+
+            .mpt-0 { padding-top: 0px !important; }
+
+            .mpr-0 { padding-right: 0px !important; }
+
+            .mfz-14 { font-size: 14px !important; }
+
+            .mfz-28 { font-size: 28px !important; }
+
+            .mfz-16 { font-size: 16px !important; }
+
+            .mfz-24 { font-size: 24px !important; }
+
+            .mlh-18 { line-height: 18px !important; }
+
+            u + body .gwfw { width:100% !important; width:100vw !important;=
+ }
+
+            .td,
+            .m-shell { width: 100% !important; min-width: 100% !important; =
+}
+
+            .mt-left { text-align: left !important; }
+            .mt-center { text-align: center !important; }
+            .mt-right { text-align: right !important; }
+
+            .m-left { text-align: left !important; }
+            .me-left { margin-right: auto !important; }
+            .me-center { margin: 0 auto !important; }
+            .me-right { margin-left: auto !important; }
+
+            .mh-auto { height: auto !important; }
+            .mw-auto { width: auto !important; }
+
+            .fluid-img img { width: 100% !important; max-width: 100% !impor=
+tant; height: auto !important; }
+
+            .column,
+            .column-top,
+            .column-dir,
+            .column-dir-top { float: left !important; width: 100% !importan=
+t; display: block !important; }
+
+            .kmMobileStretch { float: left !important; width: 100% !importa=
+nt; display: block !important; padding-left: 0 !important; padding-right: 0=
+ !important; }
+
+            .m-hide { display: none !important; width: 0 !important; height=
+: 0 !important; font-size: 0 !important; line-height: 0 !important; min-hei=
+ght: 0 !important; }
+            .m-block { display: block !important; }
+
+            .mw-15 { width: 15px !important; }
+
+            .mw-2p { width: 2% !important; }
+            .mw-32p { width: 32% !important; }
+            .mw-49p { width: 49% !important; }
+            .mw-50p { width: 50% !important; }
+            .mw-100p { width: 100% !important; }
+
+            .mbgs-200p { background-size: 200% auto !important; }
+        }
+    </style>
+</head>
+
+
+<body class=3D"body" style=3D"padding:0 !important; margin:0 auto !importan=
+t; display:block !important; min-width:100% !important; width:100% !importa=
+nt; background:#ffffff; -webkit-text-size-adjust:none;">
+<center>
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"s=
+tyle=3D"margin: 0; padding: 0; width: 100%; height: 100%;" bgcolor=3D"#ffff=
+ff" class=3D"gwfw">
+        <tr>
+            <td style=3D"margin: 0; padding: 0; width: 100%; height: 100%;"=
+ align=3D"center" valign=3D"top">
+                <table width=3D"775" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"class=3D"m-shell">
+                    <tr>
+                        <td class=3D"td" style=3D"width:775px; min-width:77=
+5px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:norma=
+l;">
+                            <table width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                                <!-- Main -->
+                                <tr>
+                                    <td class=3D"p-80 mpy-35 mpx-15" bgcolo=
+r=3D"#212429" style=3D"padding: 80px;">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+
+                                            <!-- Logo -->
+                                            <tr>
+                                                <td class=3D"img pb-45" sty=
+le=3D"font-size:0pt; line-height:0pt; text-align:left; padding-bottom: 45px=
+;">
+                                                    <a href=3D"https://stor=
+e.steampowered.com/" target=3D"_blank">
+                                                        <img src=3D"https:/=
+/store.cloudflare.steamstatic.com/public/shared/images/email/logo.png" widt=
+h=3D"615" height=3D"88" border=3D"0" alt=3D"Steam" />
+                                                    </a>
+
+                                                </td>
+                                            </tr>
+                                            <!-- END Logo -->
+
+                                            <!-- All Content Exists within =
+this table column -->
+                                            <tr>
+                                                <td>
+
+
+<!-- Welcome  -->
+=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"title-36 pb-30 c-grey6 fw-b" style=3D"font-size=
+:36px; line-height:42px; font-family:Arial, sans-serif, 'Motiva Sans'; text=
+-align:left; padding-bottom: 30px; color:#bfbfbf; font-weight:bold;">Hello =
+lachlanknell,</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!-- End Welcome -->
+
+<!-- Intro -->
+=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"title-28 c-white pb-30" style=3D"font-size:28px=
+; line-height:36px; font-family:Arial, sans-serif, 'Motiva Sans'; text-alig=
+n:left; color:#ffffff; padding-bottom: 30px;">
+=09=09=09=09=09=09<strong>Your activation of <b>Europa Universalis IV: Empe=
+ror Content Pack</b> was successful.</strong>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!-- End Intro -->
+
+<!-- Subtitle -->
+=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"text-18 c-white pb-20" style=3D"font-size:18px;=
+ line-height:25px; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left; color:#dbdbdb; padding-bottom: 20px;">It is recommended that you kee=
+p this information in a safe place. It can be used as proof-of-purchase in =
+the future.</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!-- End Subtitle -->
+
+<!-- Section 2 -->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tr>
+        <td class=3D"pb-56" style=3D"padding-bottom: 56px;">
+            <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+                <tr>
+                    <td>
+                        <table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"bgcolor=3D"#17191c">
+                            <tr>
+                                <td class=3D"py-27 px-24" style=3D"padding-=
+top: 27px; padding-bottom: 27px; padding-left: 24px; padding-right: 24px;">
+                                    <table width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+                                        <tr>
+                                            <td class=3D"text-18 c-grey4 pb=
+-15" style=3D"font-size:18px; line-height:25px; font-family:'Motiva Sans', =
+Arial, sans-serif; text-align:left; color:#f1f1f1; padding-bottom: 15px;">
+                                                Steam account name: <b>lach=
+lanknell</b>                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class=3D"text-18 c-grey4 pb=
+-15" style=3D"font-size:18px; line-height:25px; font-family:'Motiva Sans', =
+Arial, sans-serif; text-align:left; color:#f1f1f1; padding-bottom: 15px;">
+                                                Contact email address: <b>l=
+achlanleoknell@gmail.com</b>                                            </t=
+d>
+                                        </tr>
+                                        <tr>
+                                            <td class=3D"text-18 c-grey4 pb=
+-15" style=3D"font-size:18px; line-height:25px; font-family:'Motiva Sans', =
+Arial, sans-serif; text-align:left; color:#f1f1f1; padding-bottom: 15px;">
+                                                Product name: <b>Europa Uni=
+versalis IV: Emperor Content Pack</b>                                      =
+      </td>
+                                        </tr>
+                                        <tr>
+                                            <td class=3D"text-18 c-grey4" s=
+tyle=3D"font-size:18px; line-height:25px; font-family:'Motiva Sans', Arial,=
+ sans-serif; text-align:left; color:#f1f1f1;">
+                                                Confirmation code: <b>30708=
+98867815610147</b>                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<!-- END Section 2 -->
+
+<!-- Text -->
+=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"text-18 c-grey4 pb-30" style=3D"font-size:18px;=
+ line-height:25px; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left; color:#dbdbdb; padding-bottom: 30px;">Important Note: Your new subsc=
+ription is tied to your Steam account. This means that you will only be abl=
+e to access Europa Universalis IV: Emperor Content Pack when you login to S=
+team using the account named "lachlanknell".</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!-- End Text -->
+
+<!-- Text -->
+=09=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td class=3D"text-18 c-grey4 pb-30" style=3D"font-size:18px;=
+ line-height:25px; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left; color:#dbdbdb; padding-bottom: 30px;">Thanks for your purchase!</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<!-- End Text -->
+
+
+                                                                           =
+                     <!-- Signature -->
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <td class=3D"pt-30"=
+ style=3D"padding-top: 30px;">
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                <tr>
+                                                                    <td cla=
+ss=3D"img" width=3D"3" bgcolor=3D"#3a9aed" style=3D"font-size:0pt; line-hei=
+ght:0pt; text-align:left;"></td>
+                                                                    <td cla=
+ss=3D"img" width=3D"37" style=3D"font-size:0pt; line-height:0pt; text-align=
+:left;"></td>
+                                                                    <td>
+                                                                        <ta=
+ble width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                           =
+ <tr>
+                                                                           =
+                                                                           =
+              <td class=3D"text-16 py-20 c-grey4 fallback-font" style=3D"fo=
+nt-size:16px; line-height:22px; font-family:Arial, sans-serif, 'Motiva Sans=
+'; text-align:left; padding-top: 20px; padding-bottom: 20px; color:#f1f1f1;=
+">
+                                                                           =
+             Cheers,<br />
+The Steam Team                                                             =
+                       </td>
+                                                                           =
+                                                                           =
+      </tr>
+                                                                        </t=
+able>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- END Signature -->
+                                               =20
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- END Main -->
+
+                                <!-- Footer -->
+                                <tr>
+                                    <td class=3D"py-60 px-90 mpy-40 mpx-15"=
+ style=3D"padding-top: 60px; padding-bottom: 60px; padding-left: 90px; padd=
+ing-right: 90px;">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+
+                                                                           =
+             <tr>
+                                                <td class=3D"text-18 pb-60 =
+mpb-40 fallback-font" style=3D"font-size:18px; line-height:25px; color:#000=
+001; font-family:Arial, sans-serif, 'Motiva Sans'; text-align:left; padding=
+-bottom: 60px;">
+=09=09=09                                        This notification has been=
+ sent to the email address associated with your Steam account.             =
+                                       <br /><br />
+=09=09=09                                        This email message was aut=
+o-generated. Please do not respond. If you need additional help, please vis=
+it Steam Support.                                                </td>
+                                            </tr>
+                                           =20
+                                                                           =
+             <!-- A -->
+                                                                           =
+             <tr>
+                                            <td class=3D"pb-60" style=3D"pa=
+dding-bottom: 60px;">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                    <tr>
+                                                        <th class=3D"column=
+" width=3D"270" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:=
+0; font-weight:normal;">
+                                                            <table width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                <tr>
+                                                                    <td cla=
+ss=3D"text-18 mpb-40 fallback-font" style=3D"font-size:18px; line-height:25=
+px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-align=
+:left;">
+                                                                        <a =
+href=3D"https://help.steampowered.com" target=3D"_blank" class=3D"link-u c-=
+black" style=3D"text-decoration:underline; color:#000001;">
+                                                                           =
+ <span class=3D"link-u c-black" style=3D"text-decoration:underline; color:#=
+000001;">https://help.steampowered.com</span>
+                                                                        </a=
+>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </th>
+                                                                           =
+                                 </tr>
+                                                </table>
+                                            </td>
+                                            </tr>
+                                           =20
+
+                                            <!-- B -->
+                                                                           =
+                 <tr>
+                                                    <td class=3D"pb-50" sty=
+le=3D"padding-bottom: 50px;">
+                                                        <table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                            <tr>
+                                                                <th class=
+=3D"column" width=3D"270" valign=3D"top" style=3D"font-size:0pt; line-heigh=
+t:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                    <table =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                        <tr=
+>
+                                                                           =
+ <td class=3D"img mpt-0" style=3D"font-size:0pt; line-height:0pt; text-alig=
+n:left;">
+                                                                           =
+     <a href=3D"https://store.steampowered.com/" target=3D"_blank"><img src=
+=3D"https://store.cloudflare.steamstatic.com/public/shared/images/email/log=
+o_footer.png" width=3D"165" height=3D"50" border=3D"0" alt=3D"" /></a>
+                                                                           =
+ </td>
+                                                                        </t=
+r>
+                                                                    </table=
+>
+                                                                </th>
+                                                                <th class=
+=3D"column-top mpb-40" width=3D"15" style=3D"font-size:0pt; line-height:0pt=
+; padding:0; margin:0; font-weight:normal; vertical-align:top;"></th>
+                                                                <th class=
+=3D"column" style=3D"font-size:0pt; line-height:0pt; padding:0; margin:0; f=
+ont-weight:normal;">
+                                                                    <table =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                           =
+                                                                         <t=
+r>
+                                                                           =
+     <td class=3D"text-12 fallback-font" style=3D"font-size:12px; line-heig=
+ht:18px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-=
+align:left;">
+                                                                           =
+                                                                           =
+                      To download the Steam desktop client and learn more a=
+bout Steam, please visit About Steam.                                      =
+                                                  <br /><br />
+                                                                           =
+             <a href=3D"https://store.steampowered.com/about/" target=3D"_b=
+lank" class=3D"link-u c-black" style=3D"text-decoration:underline; color:#0=
+00001;">
+                                                                           =
+                 <span class=3D"link-u c-black" style=3D"text-decoration:un=
+derline; color:#000001;"><strong>About Steam</strong>
+                                                                           =
+                 </span>
+                                                                           =
+             </a>
+                                                                           =
+                                                                           =
+              </td>
+                                                                           =
+ </tr>
+                                                                           =
+                                                                 </table>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+                                           =20
+
+                                            <!-- C -->
+                                            <tr>
+                                                <td>
+                                                    <table width=3D"100%" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                        <tr>
+                                                            <th class=3D"co=
+lumn-top" valign=3D"top" width=3D"270" style=3D"font-size:0pt; line-height:=
+0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ class=3D"img" style=3D"font-size:0pt; line-height:0pt; text-align:left;">
+                                                                           =
+ <a href=3D"https://www.valvesoftware.com/en/" target=3D"_blank">
+                                                                           =
+                                                                           =
+          <img src=3D"https://store.cloudflare.steamstatic.com/public/share=
+d/images/email/logo_valve.jpg" width=3D"165" height=3D"48" border=3D"0" alt=
+=3D"" />
+                                                                           =
+                                                                           =
+      </a>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+                                                            </th>
+                                                            <th class=3D"co=
+lumn-top mpb-40" valign=3D"top" width=3D"15" style=3D"font-size:0pt; line-h=
+eight:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;"></=
+th>
+                                                            <th class=3D"co=
+lumn-top" valign=3D"top" style=3D"font-size:0pt; line-height:0pt; padding:0=
+; margin:0; font-weight:normal; vertical-align:top;">
+                                                                <table widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ class=3D"text-12 pb-30 fallback-font" style=3D"font-size:12px; line-height=
+:18px; color:#000001; font-family:Arial, sans-serif, 'Motiva Sans'; text-al=
+ign:left; padding-bottom: 30px;">
+=09                                                                        =
+                                                                           =
+     <strong>=C2=A9 Valve Corporation</strong>
+                                                                           =
+     <br />
+                                                                           =
+     <strong>PO Box 1688 Bellevue, WA 98009</strong>
+                                                                           =
+     <br /><br />
+=09=09                                                                     =
+   All rights reserved. All trademarks are property of their respective own=
+ers in the US and other countries.=09                                      =
+                                                                           =
+                               </td>
+                                                                    </tr>
+                                                                   =20
+                                                                </table>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            <!-- END Footer -->
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+
+    <center style=3D"font-family:Arial, sans-serif, 'Motiva Sans'; color: #=
+000000; font-size: 11px; margin-bottom: 4px;">
+        Trouble viewing this message?        <a href=3D"https://store.steam=
+powered.com/email/RegisterCDKeyReceipt?sparams=3DeJxtjkFPwzAMhf9KlTPa2lHarK=
+dJ0w7ckBCcdjGpaaM5cZQ4IIT476SoExy42e9779mfiiB7M2OUj4BqULW6URGBXJkn4hegIoTIY=
+zbiwS2WR0FwRU05BI6CDiwVeV0PacGB3zHiuDH8x5msLPlZJKThvD1vZ6Sw-ce_lib0ksWUSNO1=
+etfud7UuFIzh7K_fEJiZwF88Ev3C61MrJeQfw2Fa9PVKAHOBCdeeU44coHry9g1jArKpun8eqpM=
+LGDlWRy6lXqqHEipZw_7VRgdi2Rsel4Lbuq_1Xuuu181d19RN26uvbzkEeRc"
+            style=3D"font-family:Arial, sans-serif, 'Motiva Sans'; color: #=
+000000; font-size: 11px; margin-bottom: 4px;">
+            Click here.        </a>
+    </center>
+
+</body>
+</html>
+
+
+--np623e4978a3086--
