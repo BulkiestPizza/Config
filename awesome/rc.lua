@@ -5,18 +5,17 @@ pcall(require, "luarocks.loader")
 -- Standard awesome library
 local gears = require("gears")
 local awful = require("awful")
+
 require("awful.autofocus")
--- Widget and layout library
-local wibox = require("wibox")
 -- Theme handling library
 local beautiful = require("beautiful")
 -- Notification library
 local naughty = require("naughty")
-local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
+
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -47,12 +46,15 @@ end
 autorun = true
 autorunApps =
 {
+	"sxhkd",
 	"nitrogen --restore &",
 	"fcitx",
 	"xcompmgr -c &",
 	"nm-applet",
 	"kupfer",
-	"xrandr --output DVI-D-0 --mode 1920x1080 --left-of HDMI-0"
+	"xrandr --output DVI-D-0 --mode 1920x1080 --left-of HDMI-0",
+	"mpd-discord-rpc",
+	"bar3x"
 }
 if autorun then 
 	for app = 1, #autorunApps do
@@ -138,7 +140,6 @@ mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
                                      menu = mymainmenu })
 
 -- Menubar configuration
-menubar.utils.terminal = terminal -- Set the terminal for applications that require it
 -- }}}
 
 -- Keyboard map indicator and switcher
@@ -146,7 +147,6 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- {{{ Wibar
 -- Create a textclock widget
-mytextclock = wibox.widget.textclock()
 
 awful.util.spawn("nm-applet")
 
@@ -228,27 +228,7 @@ awful.screen.connect_for_each_screen(function(s)
         buttons = tasklist_buttons
     }
 
-    -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s })
 
-    -- Add widgets to the wibox
-    s.mywibox:setup {
-        layout = wibox.layout.align.horizontal,
-        { -- Left widgets
-            layout = wibox.layout.fixed.horizontal,
-            mylauncher,
-            s.mytaglist,
-            s.mypromptbox,
-        },
-        s.mytasklist, -- Middle widget
-        { -- Right widgets
-            layout = wibox.layout.fixed.horizontal,
-            mykeyboardlayout,
-            wibox.widget.systray(),
-            mytextclock,
-            s.mylayoutbox,
-        },
-    }
 end)
 -- }}}
 
@@ -308,36 +288,8 @@ globalkeys = gears.table.join(
 
 
     -- Standard program
-    awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
-              {description = "open a terminal", group = "launcher"}),
 
-    awful.key({ modkey, "Shift"   }, "Return", function () awful.spawn(web_browser) end,
-	      {description = "open a web browser", group = "launcher"}),
 
-    awful.key({ modkey,           }, "n", function() awful.spawn(notes) end,
-    	      {description = "open a note-taking application", group="launcher"}),
-
-    awful.key({ modkey,  	  }, "d", function() awful.spawn(discord) end,
-    	      {description = "open discord", group = "launcher"}),
-
-    awful.key({ modkey,           }, "c", function () awful.spawn(ide) end,
-    	      {description = "open IDE", group = "launcher"}),
-
-    awful.key({ modkey,           }, "m", function () awful.spawn(startMusic) end,
-    	      {description = "start Music using mpd", group = "launcher"}),
-    awful.key({ modkey, "Shift"   }, "m", function () awful.spawn(ncmpcpp) end,
-    	      {description = "start ncmpcpp", group = "launcher"}), 
-
-    awful.key({},"F7", function () awful.spawn(pauseMusic) end,
-    	      {description = "pause music using mpc", group ="launcher"}),
-    awful.key({}, "F8", function () awful.spawn(nextSong) end,
-    	      {description = "play next song", group ="launcher"}),
-    awful.key({}, "F6", function () awful.spawn(prevSong) end,
-    	      {description = "play previous song", group ="launcher"}),
-    awful.key({ modkey,           }, "e", function () awful.spawn(file_manager) end,
-    	      {description = "start filemanager", group ="launcher"}),
-    awful.key({ modkey,           }, "g", function () awful.spawn(steam) end,
-    	      {description = "launch Steam", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
@@ -385,10 +337,7 @@ globalkeys = gears.table.join(
                     history_path = awful.util.get_cache_dir() .. "/history_eval"
                   }
               end,
-              {description = "lua execute prompt", group = "awesome"}),
-    -- Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end,
-              {description = "show the menubar", group = "launcher"})
+              {description = "lua execute prompt", group = "awesome"})
 )
 
 clientkeys = gears.table.join(

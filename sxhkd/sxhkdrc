@@ -1,0 +1,32 @@
+super + Return
+	alacritty
+super + shift + {f, Return}
+	{firefox, librewolf}
+super + Insert
+	xclip -sel c < /priv/priv
+super + n 
+	obsidian
+super + {d, shift + r} 
+	{discord, ripcord}
+super + m 
+	~/Scripts/musicScript startMusic
+super + shift + m 
+	alacritty -e ncmpcpp
+{F6, F7, F8}
+	{mpc prev, ~/Scripts/musicScript playPause, mpc next}
+super + e 
+	nautilus
+super + g 
+	steam
+super + shift + c 
+	xclip -sel c < /priv/priv
+alt + space 
+	rofi -show drun
+super + shift + s 
+	xsnip
+super + shift + q
+	xkill
+super + space 
+	rofi -show-drun
+super + c 
+	code
